@@ -1,0 +1,84 @@
+body{
+    background-color: black;
+    font-family: Roboto;
+    font-weight: 100;
+  }
+  h1{
+    font-weight: 100;
+    font-size: 65px;
+    padding: 0;
+    margin-bottom: 0;
+    letter-spacing: 3px;
+    margin-top: 20px;
+  }
+  h2{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: -5px;
+    letter-spacing: -1px;
+    overflow: break;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  .linha{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+      margin: 0 auto;
+      overflow: auto;
+      padding: 5px 0;
+  }
+  ul{
+    list-style:none;
+  }
+  button{
+    color: white;
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    border-radius: 10px;
+    font-weight: 100;
+    border-color: white;
+    border-width: 1px;
+    margin-top: 300px;
+    transition: background-color 1.0s;
+  }
+  button:hover{
+    background-color: #1C1C1C;
+    cursor: pointer;
+    
+  }
+  input{
+    background-color: black;
+    color: white;
+    height: 100px;
+  }
+  #pc-message{
+    border: none;
+    color: white;
+    background-color: red;
+    width: 300px;
+    height: 100px;
+  }
+  #usuary-message{
+    margin-top: 100px;
+    height: 20px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom-color: white;
+    border-bottom-width: 1px;
+    border-radius: 0;
+  }
+  #enviar{
+    width: 65px;
+    margin-top: 80px;
+    margin-left: 10px;
+  }
+  #play{
+    margin-top: 100px;
+  }
