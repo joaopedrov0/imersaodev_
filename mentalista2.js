@@ -14,8 +14,9 @@ function jogo(){
 
 function verificar () {
   var tentativa = colherRespostaDoUsuario()
-  vidas--
+  
   if(vidas > 0){
+    vidas--
     if(numeroAleatorio == tentativa) {
       
       escrevaNaTela('Muito bem, você acertou! <br>  ///Total de vidas restantes: ' + vidas)
