@@ -3,7 +3,7 @@ var vidas
 var numeroAleatorio
 //funções chamadas por botões
 function jogo(){
-  numeroAleatorio = parseInt(Math.random() * 100)
+  numeroAleatorio = parseInt(Math.random() * 101)
   console.log('O número aleatório foi gerado: ' + numeroAleatorio)
   vidas = 5
   console.log('Quantidade de vidas foi reiniciada: ' + vidas)
