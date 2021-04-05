@@ -16,9 +16,9 @@ function verificar () {
   var tentativa = colherRespostaDoUsuario()
   
   if(vidas > 0){
-    vidas--
+    
     if(numeroAleatorio == tentativa) {
-      
+      vidas--
       escrevaNaTela('Muito bem, você acertou! <br>  ///Total de vidas restantes: ' + vidas)
       removerCampo()
     } else if(numeroAleatorio > tentativa) {
