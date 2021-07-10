@@ -14,7 +14,7 @@ function jogo(){
 
 function verificar () {
   var tentativa = colherRespostaDoUsuario()
-  vidas--
+  
   if(vidas > 0){
     
     if(numeroAleatorio == tentativa) {
@@ -22,10 +22,10 @@ function verificar () {
       escrevaNaTela('Muito bem, você acertou! <br>  ///Total de vidas restantes: ' + vidas)
       removerCampo()
     } else if(numeroAleatorio > tentativa) {
-      
+      vidas--
       escrevaNaTela('O número secreto é maior do que o que você digitou, tente novamente <br> ' + '///Total de vidas restantes: ' + vidas)
     } else if(numeroAleatorio < tentativa) {
-      
+      vidas--
       escrevaNaTela('O número secreto é menor do que o que você digitou, tente novamente <br> ' + '///Total de vidas restantes: ' + vidas)
     }
   } else if(vidas == 0) {
